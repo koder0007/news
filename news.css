@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .container{
+  padding: 3% 2% 2% 2%;
+}  */
+nav{
+  display: flex;
+    padding: 2% 6%;
+     justify-content: space-between;
+    align-self: center; 
+}
+nav img{
+    width: 50px;
+    height: 30px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    margin-right: 40px;
+}
+.nav-links ul li{
+list-style-type: none;
+display: inline-block;
+padding: 1%;
+position: relative;
+}
+.nav-links ul li a{
+text-decoration: none;
+color: #00001a;
+font-size: 14px;
+
+
+}
+  .nav-links ul li a:hover{
+
+    color: #f15d50;
+    
+}
+.web{
+   
+    width: 700px;
+    margin: 2% 6%;
+    height: 250px;
+    position: relative;
+    margin-bottom: 80px;
+    
+}
+.body1{
+    position: relative;
+}
+.new{
+    border: 1px solid black;
+   background-color: #00001a;
+   display: inline-block;
+    width: 21%;
+    height: 350px;
+     position:relative; 
+    margin-top: 24px;
+    color: #fff;
+    text-align: center;
+
+    
+   
+    
+}
+.new h2 {
+  font-size: 28px;
+  font-weight: 900;
+  color:goldenrod;
+  
+
+}
+.new a{ text-decoration: none;}
+.new h3{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+}
+.new h3:hover{ color:goldenrod;}
+.Bright {
+   
+    width: 700px;
+    margin-top: -80px;
+    margin-left: 75px;
+    
+    
+}
+.Bright h1{
+font-size: 45px;
+font-family: 'Inter', sans-serif;
+
+
+}
+.Bright p{
+   
+margin-top: -150px;
+margin-left: 350px;
+line-height: 1.3;
+font-size: 15px;
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    background-color: #00001a;
+    color: #fff;
+    width: 160px;
+    height: 40px;
+    letter-spacing: 2px;
+}
+button:hover{ background-color: #f15d50;color: #fff;}
+.laptop{
+    display: inline-block;
+position: relative;}
+    
+.retro{
+    display: inline-block;
+    position: relative
+}
+
+.gaming{
+    display: inline-block; position: relative
+}
+
+table img{ margin: 10px;}
+tr{padding: 15px;
+margin-left: 45px;}
+.attribution{
+    text-align: center;
+    color: black;
+} 
+.attribution a:hover{ color:#f15d50 ;}
+
+nav .fa-solid{
+    display: none;
+}
+
+/* -------mobile view----- */
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    [class*="container"] {
+        align-items: center;
+        margin: 0;
+      
+
+    }
+    .web{
+   
+        width: 90%;
+     position: relative;
+        height: 250px;
+        margin-right: 0%;
+       
+       
+        
+    }
+    .Bright{
+      width: 400px;
+       position: absolute;
+     margin-top: -50px;
+       margin-left: 30px;
+       }
+  .Bright h1{padding: -2%; text-align: left; width: 250px; display: inline; font-size: 30px;}
+  .Bright p{ margin-top: 50px;
+  margin-left: 00px;    font-size:12px ;    }
+    
+    .new{
+        width: 400px;
+        margin-top: 600px;
+        position: absolute;
+        margin-left:-440px;
+
+    }
+    .table{ position:relative; margin-top: 650px; margin-left: -40px;}
+  
+   .nav-links ul li{display: block;  }
+   .nav-links{
+        position: absolute;
+        background-color:#fff;
+        height: 100vh;
+        width: 300px;
+        top:0;
+        right: -300px;;
+        text-align: left;
+        z-index:2;
+        margin-right:0px ;
+        line-height: 3;
+        transition-duration: 1s;
+        
+}
+nav .fa-solid{
+    display: block;
+    color: #f15d50;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+.nav-links ul{
+    padding: 60px;
+    
+}
+  }

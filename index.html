@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- link to css file -->
+  <link rel="stylesheet" href="news.css">
+
+  <link rel="icon" type="png" sizes="32x32" href="favicon-32x32.png">
+  <!-- google-fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Inter:wght@800&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+<!-- font awesome cdn -->
+<script src="https://kit.fontawesome.com/0d0ee22ce7.js" crossorigin="anonymous"></script>
+
+  <title>Frontend Mentor | News homepage</title>
+
+ 
+</head>
+<body>
+ <!-- jai sri Ram -->
+
+ <div class="container">
+ <section class="header">
+
+
+ <nav>
+
+  <img src="logo.svg" alt="">
+
+    <div class="nav-links" id="navLinks">
+      <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">New</a></li>
+        <li><a href="">Popular</a></li>
+        <li><a href="">Trending</a></li>
+        <li><a href="">Categories</a></li>
+      </ul>
+      
+    </div>
+    <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+</nav>
+</section>
+<section class="body1">
+<div>
+   <img class="web" src="image-web-3-desktop.jpg" alt="">
+   
+   
+<div class="new">
+   <h2>New</h2> <br>
+   <a href=""><h3>Hydreogen VS Electric Cars</h3></a>
+   <p>will hydrogen-fuled cars ever catch up to EVs? </p> <br>
+   <hr> <br> 
+   <a href=""><h3> The Downsides of All Artistry</h3></a>
+   <p>What are the possible adverse effects of <br> on-demand Ai image generation?</p><br>
+   <hr> <br>
+  <a href=""><h3>is VC Funding Drying Up?</h3></a>
+  <p>Private funding by VC firms is down 50% YOY.we take a look what that means.</p><br>
+  </div>
+  
+</div>
+
+<div class="Bright" >
+  <h1> The Bright <br> Future of  <br> Web 3.0?</h1>
+  <p>we dive into the next evolution of the web that  <br> claim to put the power of the platforms back  <br> into
+    the hands of the people. But is it really <br> fulfilling its promise?
+    <br><button>READ MORE</button>
+  </p>
+  </div>
+
+
+</section>
+<table class="table">
+
+  <tr class="retro"> 
+    <td><img style="width: 100px;height: 120px;" src="image-retro-pcs.jpg" alt="" srcset=""> </td>
+  <td>  
+    <h1>01</h1>
+    <h3>Reviving Retro PCs</h3>
+    <p>What happens when old PCs <br>
+    are given modern upgrade? </p> 
+  </td>
+
+  </tr>
+   <tr class="laptop">
+
+    <td> <img style="width: 100px;height: 120px ;" src="image-top-laptops.jpg" alt=""></td>
+    <td> <h1>02</h1>
+    <h3>Top ten laptops of 2022</h3>
+    <p>OUr best picks for various <br>
+    needs and budgets.</p>
+  </td>
+   </tr>
+<tr class="gaming">  
+  <td> <img style="width: 100px;height: 120px;" src="image-gaming-growth.jpg" alt=""></td> 
+       <td> <h1>03</h1>
+        <h3>The Growth of Gaming</h3> 
+        <p>How the pandemic has sparked <br> fresh opportunities </p>
+      </td>
+
+</tr>
+</table>
+
+
+ 
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">koder007</a>.
+  </div>
+</div>
+
+<script>
+var navLinks= document.getElementById("navLinks");
+function hideMenu(){
+  navLinks.style.right= "-300px";
+}
+function showMenu(){
+  navLinks.style.right= " 0";
+}
+
+</script>
+</body>
+</html>
